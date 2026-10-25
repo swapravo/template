@@ -1,0 +1,32 @@
+# Other apps (built from their own contexts)
+frontend
+landing
+
+# Secrets — never bake into an image
+.env
+.env.*
+
+# Version control & tooling
+.git
+.gitignore
+.agents
+.claude
+
+# Tests
+tests
+.pytest_cache
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+.venv
+venv
+
+# Docker files
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+
+# OS files
+.DS_Store

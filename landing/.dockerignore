@@ -1,0 +1,22 @@
+# Version control
+.git
+.gitignore
+
+# Dependencies & build output
+node_modules
+dist
+.astro
+npm-debug.log*
+
+# Environment files
+.env
+.env.*
+
+# Docker files
+Dockerfile*
+.dockerignore
+
+# IDE & OS files
+.DS_Store
+.vscode
+.idea
